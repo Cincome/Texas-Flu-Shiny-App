@@ -2,3 +2,4 @@ name: Texas-Flu-Shiny-App
 account: cincome
 bundleId: 177734
 url: http://cincome.shinyapps.io/Texas-Flu-Shiny-App
+server: shinyapps.io

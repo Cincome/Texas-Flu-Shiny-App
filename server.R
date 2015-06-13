@@ -2658,31 +2658,31 @@ if(input$year == 1) {
     ggplot(counties, aes(long, lat, group = group, fill = y2005)) + geom_polygon() + 
         coord_equal()
     
-} else if(input$year){
+} else if(input$year == 8){
     ggplot(counties, aes(long, lat, group = group, fill = y2006)) + geom_polygion() + 
         coord_equal()
     
-} else if(input$year == 8){
+} else if(input$year == 9){
     ggplot(counties, aes(long, lat, group = group, fill = y2007)) + geom_polygon() +
         coord_equal()
     
-} else if(input$year == 9){
+} else if(input$year == 10){
     ggplot(counties, aes(long, lat, group = group, fill = y2008)) + geom_polygon() +
         coord_equal()
     
-} else if(input$year == 10){
+} else if(input$year == 11){
     ggplot(counties, aes(long, lat, group = group, fill = y2009)) + geom_polygon() + 
         coord_equal()
     
-} else if(input$year ==11){
+} else if(input$year ==12){
     ggplot(counties, aes(long, lat, group = group, fill = y2010)) + geom_polygon() +
         coord_equal()
     
-} else if(input$year == 12){
+} else if(input$year == 13){
     ggplot(counties, aes(long, lat, group = group, fill = y2011)) + geom_polygon() + 
         coord_equal()
     
-} else if(input$year == 13){
+} else if(input$year == 14){
     ggplot(counties, aes(long, lat, group = group, fill = y2012)) + geom_polygon() + 
         coord_equal()
     
